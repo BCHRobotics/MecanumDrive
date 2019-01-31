@@ -33,10 +33,10 @@ public class Drivetrain extends Subsystem{
         final double v4 = r * Math.cos(robotAngle) - rightX;
 
 
-        SPARKLEFTFRONT.set(v1*.2);
-        SPARKRIGHTFRONT.set(v2*.2);
-        SPARKRIGHTBACK.set(v3*.2);
-        SPARKLEFTBACK.set(v4*.2);
+        SPARKLEFTFRONT.set(v1*moveSpeed);
+        SPARKRIGHTFRONT.set(v2*moveSpeed);
+        SPARKRIGHTBACK.set(v3*moveSpeed);
+        SPARKLEFTBACK.set(v4*moveSpeed);
         
     }
     

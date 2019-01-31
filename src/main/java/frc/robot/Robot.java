@@ -142,13 +142,9 @@ public class Robot extends TimedRobot {
 
     //Check for Snail and Turbo buttons to speed or slow the robot
     if(Robot.m_oi.ButtonSnail.get() == true){
-
       moveSpeed = 0.5;
-    
     } else if(Robot.m_oi.ButtonTurbo.get() == true){
-
       moveSpeed = 1;
-    
     }
 
     double rotateSpeed = Robot.m_oi.driveStick.getRawAxis(RobotMap.OI_DRIVESTICK_ROTATE);

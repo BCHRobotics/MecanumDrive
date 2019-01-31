@@ -20,14 +20,6 @@ public class Drivetrain extends Subsystem{
 
     public Drivetrain(){
 
-/*        //Set ramp rates
-        double rampRate = 0.4;
-        SPARKLEFTFRONT.configOpenloopRamp(rampRate);
-        SPARKLEFTBACK.configOpenloopRamp(rampRate);
-
-        SPARKRIGHTFRONT.configOpenloopRamp(rampRate);
-        SPARKRIGHTBACK.configOpenloopRamp(rampRate);*/
-
     }
 
     public void mecanumDrive(double moveSpeed, double rotateSpeed) {

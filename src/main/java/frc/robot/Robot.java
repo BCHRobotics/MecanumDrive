@@ -161,9 +161,7 @@ public class Robot extends TimedRobot {
     }
 
     //Arcade drive command
-    Robot.m_drivetrain.mecanumDrive(
-      (-Robot.m_oi.driveStick.getRawAxis(RobotMap.OI_DRIVESTICK_MOVEX)) * moveSpeed,
-      rotateSpeed * moveSpeed);
+    Robot.m_drivetrain.mecanumDrive(moveSpeed, rotateSpeed);
     
     //Check if grabber buttons are pressed then open or close grabber
     if(Robot.m_oi.ButtonGrabOpen.get() == true){
